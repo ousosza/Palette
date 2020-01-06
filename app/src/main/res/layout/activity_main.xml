@@ -20,7 +20,7 @@
                 android:scaleType="centerCrop"/>
 
             <TextView
-                android:id="@+id/Showcolor"
+                android:id="@+id/tvRGB"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:background="#ebe1dd"
@@ -34,10 +34,11 @@
 
 
             <TextView
+                android:id="@+id/tvShowing"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_below="@+id/Showcolor"
-                android:layout_alignLeft="@+id/Showcolor"
+                android:layout_below="@+id/tvRGB"
+                android:layout_alignLeft="@+id/tvRGB"
                 android:text="//RGB"
                 />
         </RelativeLayout>
@@ -58,6 +59,7 @@
             >
 
             <Button
+                android:id="@+id/bt1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#EBE1DD"
@@ -68,6 +70,7 @@
                 android:layout_marginRight="5dp"/>
 
             <Button
+                android:id="@+id/bt2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ECCBCA"
@@ -78,6 +81,7 @@
                 android:layout_marginRight="5dp"/>
 
             <Button
+                android:id="@+id/bt3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#75839C"
@@ -88,6 +92,7 @@
                 android:layout_marginRight="5dp"/>
 
             <Button
+                android:id="@+id/bt4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#99A9BF"
@@ -98,6 +103,7 @@
                 android:layout_marginRight="5dp"/>
 
             <Button
+                android:id="@+id/bt5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#C3CCD5"
@@ -108,6 +114,7 @@
                 android:layout_marginRight="5dp"/>
 
             <Button
+                android:id="@+id/bt6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#DDE2E5"
